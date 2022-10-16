@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+fastapi[all]
+bs4
+pandas
+plotly
+kaleido
