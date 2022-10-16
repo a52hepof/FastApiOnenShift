@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get('/')
 def index():
-    return {'data': 'Hello FastAPI!'}
+    return {'data': 'Hello FastAPI! from Openshif'}
 
 @app.get('/message')
 def index():
@@ -13,3 +13,5 @@ def index():
 
 if __name__ == "__main__":
     uvicorn.run(app, host='0.0.0.0', port=8080)
+
+ #curl http://localhost:5001
